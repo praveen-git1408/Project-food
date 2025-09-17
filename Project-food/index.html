@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header class="header-section">
+    <!-- Desktop Navigation -->
+    <nav class="desktop-menu" aria-label="Main Navigation">
+      <ul class="menu-sec">
+        <li><a href="#" aria-current="page">Home</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Restaurant</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Mobile Menu Toggle -->
+    <input type="checkbox" id="menu-toggle" class="menu-toggle" aria-hidden="true">
+    <label for="menu-toggle" class="overlay" aria-hidden="true"></label>
+
+    <div class="menu-icon-wrapper">
+      <label for="menu-toggle" class="menu-icon" aria-label="Toggle menu">
+        <img src="./assets/img/menu-bar.png" alt="Menu Icon">
+      </label>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-menu" aria-label="Mobile Navigation">
+      <ul class="menu-sec">
+        <li><a href="#" aria-current="page">Home</a></li>
+        <li><a href="#">Order</a></li>
+        <li><a href="#">Food</a></li>
+        <li><a href="#">Restaurant</a></li>
+        <li><a href="#">Testimonials</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Food Section -->
+    <section class="food-section">
+      <div class="food-details">
+        <div class="food-text">
+          <h1 class="food-title">LOREM IPSUM</h1>
+          <p class="food-description">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
+            id est vitae dolor rhoncus tristique. Maecenas metus quam,
+            rhoncus euismod lorem in, sollicitudin viverra eros. Donec
+            dictum luctus quam ut tristique. Curabitur nec faucibus purus.
+            Quisque congue sem nec justo mollis, in tincidunt erat pretium.
+            Sed pulvinar, massa ac porta viverra.
+          </p>
+          <span class="food-redirect-link">
+            <a class="food-category-sec" href="#" aria-label="Explore more food categories">Click Me</a>
+          </span>
+        </div>
+      </div>
+
+      <div class="food-banner">
+        <img src="./assets/img/burder-img.jpg" alt="Delicious Burger Banner">
+      </div>
+    </section>
+
+    <!-- Food Collections -->
+    <section class="food-section-collections">
+      <div class="food-collection-banner">
+        <div class="food-collection-images">
+          <img class="food-court-image" src="./assets/img/food-court-img.jpg" alt="Food Court Area">
+          <img class="street-food-image" src="./assets/img/street-food-img.jpg" alt="Street Food Stall">
+          <img class="food-table-images" src="./assets/img/hotel-img.jpg" alt="Hotel Dining Table">
+        </div>
+      </div>
+
+      <div class="category-page">
+        <h2 class="category-page-subtitle">LOREM IPSUM</h2>
+        <h3 class="food-title">LOREM IPSUM<br>SET ADEMIR</h3>
+        <a href="#" class="food-link" aria-label="Click to explore category">
+          Click
+          <img src="./assets/img/arrow-icon.png" alt="Right Arrow Icon">
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
